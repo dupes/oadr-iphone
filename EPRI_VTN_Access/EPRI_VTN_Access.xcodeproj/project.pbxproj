@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4768CD1A4332DA00ACD1C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4768CC1A4332DA00ACD1C8 /* Foundation.framework */; };
+		CD4768CF1A4332DA00ACD1C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4768CE1A4332DA00ACD1C8 /* CoreGraphics.framework */; };
+		CD4768D11A4332DA00ACD1C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4768D01A4332DA00ACD1C8 /* UIKit.framework */; };
+		CD4768D71A4332DA00ACD1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4768D51A4332DA00ACD1C8 /* InfoPlist.strings */; };
+		CD4768D91A4332DA00ACD1C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4768D81A4332DA00ACD1C8 /* main.m */; };
+		CD4768DD1A4332DB00ACD1C8 /* VTNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4768DC1A4332DB00ACD1C8 /* VTNAppDelegate.m */; };
+		CD4768DF1A4332DB00ACD1C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4768DE1A4332DB00ACD1C8 /* Images.xcassets */; };
+		CD4768E61A4332DB00ACD1C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4768E51A4332DB00ACD1C8 /* XCTest.framework */; };
+		CD4768E71A4332DB00ACD1C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4768CC1A4332DA00ACD1C8 /* Foundation.framework */; };
+		CD4768E81A4332DB00ACD1C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4768D01A4332DA00ACD1C8 /* UIKit.framework */; };
+		CD4768F01A4332DB00ACD1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4768EE1A4332DB00ACD1C8 /* InfoPlist.strings */; };
+		CD4768F21A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4768F11A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.m */; };
+		CD4768FC1A43339000ACD1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4768FB1A43339000ACD1C8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4768E91A4332DB00ACD1C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4768C11A4332DA00ACD1C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4768C81A4332DA00ACD1C8;
+			remoteInfo = EPRI_VTN_Access;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4768C91A4332DA00ACD1C8 /* EPRI_VTN_Access.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPRI_VTN_Access.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4768CC1A4332DA00ACD1C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD4768CE1A4332DA00ACD1C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD4768D01A4332DA00ACD1C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD4768D41A4332DA00ACD1C8 /* EPRI_VTN_Access-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPRI_VTN_Access-Info.plist"; sourceTree = "<group>"; };
+		CD4768D61A4332DA00ACD1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4768D81A4332DA00ACD1C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD4768DA1A4332DB00ACD1C8 /* EPRI_VTN_Access-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPRI_VTN_Access-Prefix.pch"; sourceTree = "<group>"; };
+		CD4768DB1A4332DB00ACD1C8 /* VTNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTNAppDelegate.h; sourceTree = "<group>"; };
+		CD4768DC1A4332DB00ACD1C8 /* VTNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTNAppDelegate.m; sourceTree = "<group>"; };
+		CD4768DE1A4332DB00ACD1C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD4768E41A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPRI_VTN_AccessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4768E51A4332DB00ACD1C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD4768ED1A4332DB00ACD1C8 /* EPRI_VTN_AccessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPRI_VTN_AccessTests-Info.plist"; sourceTree = "<group>"; };
+		CD4768EF1A4332DB00ACD1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4768F11A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPRI_VTN_AccessTests.m; sourceTree = "<group>"; };
+		CD4768FB1A43339000ACD1C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4768C61A4332DA00ACD1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4768CF1A4332DA00ACD1C8 /* CoreGraphics.framework in Frameworks */,
+				CD4768D11A4332DA00ACD1C8 /* UIKit.framework in Frameworks */,
+				CD4768CD1A4332DA00ACD1C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4768E11A4332DB00ACD1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4768E61A4332DB00ACD1C8 /* XCTest.framework in Frameworks */,
+				CD4768E81A4332DB00ACD1C8 /* UIKit.framework in Frameworks */,
+				CD4768E71A4332DB00ACD1C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4768C01A4332DA00ACD1C8 = {
+			isa = PBXGroup;
+			children = (
+				CD4768D21A4332DA00ACD1C8 /* EPRI_VTN_Access */,
+				CD4768EB1A4332DB00ACD1C8 /* EPRI_VTN_AccessTests */,
+				CD4768CB1A4332DA00ACD1C8 /* Frameworks */,
+				CD4768CA1A4332DA00ACD1C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4768CA1A4332DA00ACD1C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4768C91A4332DA00ACD1C8 /* EPRI_VTN_Access.app */,
+				CD4768E41A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4768CB1A4332DA00ACD1C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4768CC1A4332DA00ACD1C8 /* Foundation.framework */,
+				CD4768CE1A4332DA00ACD1C8 /* CoreGraphics.framework */,
+				CD4768D01A4332DA00ACD1C8 /* UIKit.framework */,
+				CD4768E51A4332DB00ACD1C8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4768D21A4332DA00ACD1C8 /* EPRI_VTN_Access */ = {
+			isa = PBXGroup;
+			children = (
+				CD4768DB1A4332DB00ACD1C8 /* VTNAppDelegate.h */,
+				CD4768DC1A4332DB00ACD1C8 /* VTNAppDelegate.m */,
+				CD4768DE1A4332DB00ACD1C8 /* Images.xcassets */,
+				CD4768FB1A43339000ACD1C8 /* Main.storyboard */,
+				CD4768D31A4332DA00ACD1C8 /* Supporting Files */,
+			);
+			path = EPRI_VTN_Access;
+			sourceTree = "<group>";
+		};
+		CD4768D31A4332DA00ACD1C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4768D41A4332DA00ACD1C8 /* EPRI_VTN_Access-Info.plist */,
+				CD4768D51A4332DA00ACD1C8 /* InfoPlist.strings */,
+				CD4768D81A4332DA00ACD1C8 /* main.m */,
+				CD4768DA1A4332DB00ACD1C8 /* EPRI_VTN_Access-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4768EB1A4332DB00ACD1C8 /* EPRI_VTN_AccessTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4768F11A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.m */,
+				CD4768EC1A4332DB00ACD1C8 /* Supporting Files */,
+			);
+			path = EPRI_VTN_AccessTests;
+			sourceTree = "<group>";
+		};
+		CD4768EC1A4332DB00ACD1C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4768ED1A4332DB00ACD1C8 /* EPRI_VTN_AccessTests-Info.plist */,
+				CD4768EE1A4332DB00ACD1C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4768C81A4332DA00ACD1C8 /* EPRI_VTN_Access */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4768F51A4332DB00ACD1C8 /* Build configuration list for PBXNativeTarget "EPRI_VTN_Access" */;
+			buildPhases = (
+				CD4768C51A4332DA00ACD1C8 /* Sources */,
+				CD4768C61A4332DA00ACD1C8 /* Frameworks */,
+				CD4768C71A4332DA00ACD1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPRI_VTN_Access;
+			productName = EPRI_VTN_Access;
+			productReference = CD4768C91A4332DA00ACD1C8 /* EPRI_VTN_Access.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4768E31A4332DB00ACD1C8 /* EPRI_VTN_AccessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4768F81A4332DB00ACD1C8 /* Build configuration list for PBXNativeTarget "EPRI_VTN_AccessTests" */;
+			buildPhases = (
+				CD4768E01A4332DB00ACD1C8 /* Sources */,
+				CD4768E11A4332DB00ACD1C8 /* Frameworks */,
+				CD4768E21A4332DB00ACD1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4768EA1A4332DB00ACD1C8 /* PBXTargetDependency */,
+			);
+			name = EPRI_VTN_AccessTests;
+			productName = EPRI_VTN_AccessTests;
+			productReference = CD4768E41A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4768C11A4332DA00ACD1C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VTN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Nebland;
+				TargetAttributes = {
+					CD4768E31A4332DB00ACD1C8 = {
+						TestTargetID = CD4768C81A4332DA00ACD1C8;
+					};
+				};
+			};
+			buildConfigurationList = CD4768C41A4332DA00ACD1C8 /* Build configuration list for PBXProject "EPRI_VTN_Access" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD4768C01A4332DA00ACD1C8;
+			productRefGroup = CD4768CA1A4332DA00ACD1C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4768C81A4332DA00ACD1C8 /* EPRI_VTN_Access */,
+				CD4768E31A4332DB00ACD1C8 /* EPRI_VTN_AccessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4768C71A4332DA00ACD1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4768FC1A43339000ACD1C8 /* Main.storyboard in Resources */,
+				CD4768D71A4332DA00ACD1C8 /* InfoPlist.strings in Resources */,
+				CD4768DF1A4332DB00ACD1C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4768E21A4332DB00ACD1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4768F01A4332DB00ACD1C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4768C51A4332DA00ACD1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4768D91A4332DA00ACD1C8 /* main.m in Sources */,
+				CD4768DD1A4332DB00ACD1C8 /* VTNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4768E01A4332DB00ACD1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4768F21A4332DB00ACD1C8 /* EPRI_VTN_AccessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4768EA1A4332DB00ACD1C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4768C81A4332DA00ACD1C8 /* EPRI_VTN_Access */;
+			targetProxy = CD4768E91A4332DB00ACD1C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4768D51A4332DA00ACD1C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4768D61A4332DA00ACD1C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD4768EE1A4332DB00ACD1C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4768EF1A4332DB00ACD1C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4768F31A4332DB00ACD1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD4768F41A4332DB00ACD1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4768F61A4332DB00ACD1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRI_VTN_Access/EPRI_VTN_Access-Prefix.pch";
+				INFOPLIST_FILE = "EPRI_VTN_Access/EPRI_VTN_Access-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD4768F71A4332DB00ACD1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRI_VTN_Access/EPRI_VTN_Access-Prefix.pch";
+				INFOPLIST_FILE = "EPRI_VTN_Access/EPRI_VTN_Access-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD4768F91A4332DB00ACD1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPRI_VTN_Access.app/EPRI_VTN_Access";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRI_VTN_Access/EPRI_VTN_Access-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EPRI_VTN_AccessTests/EPRI_VTN_AccessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD4768FA1A4332DB00ACD1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPRI_VTN_Access.app/EPRI_VTN_Access";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPRI_VTN_Access/EPRI_VTN_Access-Prefix.pch";
+				INFOPLIST_FILE = "EPRI_VTN_AccessTests/EPRI_VTN_AccessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4768C41A4332DA00ACD1C8 /* Build configuration list for PBXProject "EPRI_VTN_Access" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4768F31A4332DB00ACD1C8 /* Debug */,
+				CD4768F41A4332DB00ACD1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4768F51A4332DB00ACD1C8 /* Build configuration list for PBXNativeTarget "EPRI_VTN_Access" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4768F61A4332DB00ACD1C8 /* Debug */,
+				CD4768F71A4332DB00ACD1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4768F81A4332DB00ACD1C8 /* Build configuration list for PBXNativeTarget "EPRI_VTN_AccessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4768F91A4332DB00ACD1C8 /* Debug */,
+				CD4768FA1A4332DB00ACD1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4768C11A4332DA00ACD1C8 /* Project object */;
+}
