@@ -1,6 +1,6 @@
 //
-//  EPRI_VTN_AccessTests.m
-//  EPRI_VTN_AccessTests
+//  EPRI_VTN_ACCESSTests.m
+//  EPRI_VTN_ACCESSTests
 //
 //  Created by Patrick Elam on 12/18/14.
 //  Copyright (c) 2014 Nebland. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface EPRI_VTN_AccessTests : XCTestCase
+@interface EPRI_VTN_ACCESSTests : XCTestCase
 
 @end
 
-@implementation EPRI_VTN_AccessTests
+@implementation EPRI_VTN_ACCESSTests
 
 - (void)setUp
 {

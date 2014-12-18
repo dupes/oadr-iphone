@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EPRI_VTN_Access.xcscheme</key>
+		<key>EPRI_VTN_ACCESS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CD4768C81A4332DA00ACD1C8</key>
+		<key>CD4769051A433C2D00ACD1C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD4768E31A4332DB00ACD1C8</key>
+		<key>CD4769201A433C2D00ACD1C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

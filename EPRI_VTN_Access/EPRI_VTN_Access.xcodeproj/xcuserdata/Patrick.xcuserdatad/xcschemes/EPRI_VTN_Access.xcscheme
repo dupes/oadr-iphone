@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD4768C81A4332DA00ACD1C8"
-               BuildableName = "EPRI_VTN_Access.app"
-               BlueprintName = "EPRI_VTN_Access"
-               ReferencedContainer = "container:EPRI_VTN_Access.xcodeproj">
+               BlueprintIdentifier = "CD4769051A433C2D00ACD1C8"
+               BuildableName = "EPRI_VTN_ACCESS.app"
+               BlueprintName = "EPRI_VTN_ACCESS"
+               ReferencedContainer = "container:EPRI_VTN_ACCESS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD4768E31A4332DB00ACD1C8"
-               BuildableName = "EPRI_VTN_AccessTests.xctest"
-               BlueprintName = "EPRI_VTN_AccessTests"
-               ReferencedContainer = "container:EPRI_VTN_Access.xcodeproj">
+               BlueprintIdentifier = "CD4769201A433C2D00ACD1C8"
+               BuildableName = "EPRI_VTN_ACCESSTests.xctest"
+               BlueprintName = "EPRI_VTN_ACCESSTests"
+               ReferencedContainer = "container:EPRI_VTN_ACCESS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD4768C81A4332DA00ACD1C8"
-            BuildableName = "EPRI_VTN_Access.app"
-            BlueprintName = "EPRI_VTN_Access"
-            ReferencedContainer = "container:EPRI_VTN_Access.xcodeproj">
+            BlueprintIdentifier = "CD4769051A433C2D00ACD1C8"
+            BuildableName = "EPRI_VTN_ACCESS.app"
+            BlueprintName = "EPRI_VTN_ACCESS"
+            ReferencedContainer = "container:EPRI_VTN_ACCESS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD4768C81A4332DA00ACD1C8"
-            BuildableName = "EPRI_VTN_Access.app"
-            BlueprintName = "EPRI_VTN_Access"
-            ReferencedContainer = "container:EPRI_VTN_Access.xcodeproj">
+            BlueprintIdentifier = "CD4769051A433C2D00ACD1C8"
+            BuildableName = "EPRI_VTN_ACCESS.app"
+            BlueprintName = "EPRI_VTN_ACCESS"
+            ReferencedContainer = "container:EPRI_VTN_ACCESS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD4768C81A4332DA00ACD1C8"
-            BuildableName = "EPRI_VTN_Access.app"
-            BlueprintName = "EPRI_VTN_Access"
-            ReferencedContainer = "container:EPRI_VTN_Access.xcodeproj">
+            BlueprintIdentifier = "CD4769051A433C2D00ACD1C8"
+            BuildableName = "EPRI_VTN_ACCESS.app"
+            BlueprintName = "EPRI_VTN_ACCESS"
+            ReferencedContainer = "container:EPRI_VTN_ACCESS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

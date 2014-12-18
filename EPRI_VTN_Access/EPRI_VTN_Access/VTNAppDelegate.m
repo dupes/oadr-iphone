@@ -1,6 +1,6 @@
 //
 //  VTNAppDelegate.m
-//  EPRI_VTN_Access
+//  EPRI_VTN_ACCESS
 //
 //  Created by Patrick Elam on 12/18/14.
 //  Copyright (c) 2014 Nebland. All rights reserved.
@@ -12,10 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /*
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    */
     return YES;
 }
 

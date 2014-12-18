@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4F41B0B8-9A3D-4F52-B180-D6A5A5D1C1F3</string>
+	<string>37F1460C-738A-492B-B16D-A8490B3D925E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>EPRI_VTN_Access</string>
+	<string>EPRI_VTN_ACCESS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F439FF8E-14CF-4888-B76B-8E6FEEC3E26F</key>
 		<string>https://github.com/dupes/oadr-iphone.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>EPRI_VTN_Access/EPRI_VTN_Access.xcodeproj/project.xcworkspace</string>
+	<string>EPRI_VTN_ACCESS/EPRI_VTN_ACCESS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F439FF8E-14CF-4888-B76B-8E6FEEC3E26F</key>

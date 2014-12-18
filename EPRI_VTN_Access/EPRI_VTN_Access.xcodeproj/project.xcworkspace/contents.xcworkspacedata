@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EPRI_VTN_Access.xcodeproj">
+      location = "self:EPRI_VTN_ACCESS.xcodeproj">
    </FileRef>
 </Workspace>

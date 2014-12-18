@@ -1,6 +1,6 @@
 //
 //  VTNAppDelegate.h
-//  EPRI_VTN_Access
+//  EPRI_VTN_ACCESS
 //
 //  Created by Patrick Elam on 12/18/14.
 //  Copyright (c) 2014 Nebland. All rights reserved.
